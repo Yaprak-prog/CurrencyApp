@@ -1,0 +1,46 @@
+.main {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  border: 3px solid darkblue;
+  width: 500px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.amount {
+  margin-right: 15px;
+  height: 50px;
+  width: 100px;
+}
+
+.fromCurrency {
+  margin-right: 10px;
+  height: 40px;
+  width: 80px;
+}
+
+.toCurrency {
+  margin-right: 15px;
+  height: 40px;
+  width: 80px;
+}
+
+.result {
+  height: 50px;
+  width: 100px;
+}
+
+.button {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(186, 101, 26);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
